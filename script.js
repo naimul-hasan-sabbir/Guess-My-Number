@@ -21,7 +21,7 @@ document.querySelector('.check').addEventListener('click', function () {
     document.querySelector('.message').textContent = '🎉 Correct Number!';
   } else if (guess > secretNumber) {
 
-    if(score > 0){
+    if(score > 1){
       document.querySelector('.message').textContent = '🌋 Too High!';
       score--;
       document.querySelector('.score').textContent = score;
